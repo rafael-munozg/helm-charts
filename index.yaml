@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-03-08T21:41:52.1648936-06:00"
+    created: "2020-03-08T22:14:07.6460533-06:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -11,8 +11,8 @@ entries:
       tags:
       - wordpress-database
       version: 7.x.x
-    description: Web publishing platform for building blogs and websites.
-    digest: 286abd7b7c9845e5a506ac7812fe5936edd06f9f6cd3b4aa471f1fccbe07c2df
+    description: Custom chart.
+    digest: fc5738a0b038aaf6dadd384bb5355f09095a34a5f4af259bc70323a5cbe1cf1b
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -32,4 +32,4 @@ entries:
     urls:
     - wordpress-9.0.1.tgz
     version: 9.0.1
-generated: "2020-03-06T12:41:52.1588932-06:00"
+generated: "2020-03-08T22:14:07.6420524-06:00"
